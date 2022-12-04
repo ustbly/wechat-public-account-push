@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o9g255uyJbyb-vikk1HiE2X7HsfU',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'l9_eeRoM7VxzqhSvX-24iV2i5lKjLUINEyHyOMQ4-SE',
+      useTemplateId: '7UAWNpkvfSmMhwkVQVGGn4IGSPx66PvD87cQf58kdv4',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '01-19',
       festivals: [
@@ -54,21 +54,14 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o9g255rQtpDCY8e1lsqToFSPP8vI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'l9_eeRoM7VxzqhSvX-24iV2i5lKjLUINEyHyOMQ4-SE',
+      useTemplateId: '7UAWNpkvfSmMhwkVQVGGn4IGSPx66PvD87cQf58kdv4',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '01-19',
+      horoscopeDate: '11-17',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
           type: '*生日', name: '胖虎', year: '1998', date: '09-29',
         },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        //{
-          //type: '生日', name: 'Vayne', year: '1998', date: '01-19',
-        //},
-        //{
-          //type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
-        //},
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
@@ -82,7 +75,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'l9_eeRoM7VxzqhSvX-24iV2i5lKjLUINEyHyOMQ4-SE',
+  //CALLBACK_TEMPLATE_ID: '7UAWNpkvfSmMhwkVQVGGn4IGSPx66PvD87cQf58kdv4',
 
   CALLBACK_USERS: [
     {
