@@ -14,14 +14,14 @@ const USER_CONFIG = {
   APP_SECRET: '625717b0a56ffb4bc2721dc988315339',
 
   PROVINCE: '山东',
-  CITY: '青岛',
+  CITY: '胶州',
 
   USERS: [
     {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o9g255rQtpDCY8e1lsqToFSPP8vI',
+      id: 'o9g255uyJbyb-vikk1HiE2X7HsfU',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'JE6Mlht-B8ZcNwCprclOTYJnLB563ZbNGMc9y5IxK-0',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -29,12 +29,12 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1997', date: '12-27',
+          type: '*生日', name: '宝贝', year: '1997', date: '12-21',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: 'Vayne', year: '1998', date: '01-19',
-        },
+        //{
+          //type: '生日', name: 'Vayne', year: '1998', date: '01-19',
+        //},
         //{
           //type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
         //},
