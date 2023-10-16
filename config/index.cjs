@@ -8,10 +8,10 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wx42c85191605adef8',
+  APP_ID: 'wx50477d779fcf8a5a',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '625717b0a56ffb4bc2721dc988315339',
+  APP_SECRET: '684d3b4f515f5af787da8bd0d10e1f4d',
 
   PROVINCE: '山东',
   CITY: '青岛',
@@ -21,9 +21,9 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o9g255uyJbyb-vikk1HiE2X7HsfU',
+      id: 'oNL8H6R3DqiA0M2ipc1EBYzlM9s4',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'K7aHtrTH6Y3bujIjjoFS15h3kX_FJoSNkXWL8j0fM3g',
+      useTemplateId: 'eKogaut-6GWdKJoWw5dqVOHBXNRy_JuuSljKIR68qJs',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '01-19',
       festivals: [
@@ -32,7 +32,7 @@ const USER_CONFIG = {
           type: '*生日', name: '胖虎', year: '1998', date: '09-29',
         },
         {
-          type: '*生日', name: '维恩', year: '1997', date: '12-21',
+          type: '*生日', name: 'Vayne', year: '1997', date: '12-21',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         //{
@@ -55,15 +55,15 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '自己',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o9g255rQtpDCY8e1lsqToFSPP8vI',
+      id: 'oNL8H6djv1jv0_nkOj9DkGgMi2TQ',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'K7aHtrTH6Y3bujIjjoFS15h3kX_FJoSNkXWL8j0fM3g',
+      useTemplateId: 'eKogaut-6GWdKJoWw5dqVOHBXNRy_JuuSljKIR68qJs',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '11-17',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '维恩', year: '1997', date: '12-21',
+          type: '*生日', name: 'Vayne', year: '1997', date: '12-21',
         },
         {
           type: '*生日', name: '胖虎', year: '1998', date: '09-29',
@@ -81,13 +81,13 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  //CALLBACK_TEMPLATE_ID: 'aWKQ5GsZj5h96PLKYJwhytX1k45L6XDLml7oyEGegOk',
+  CALLBACK_TEMPLATE_ID: '83KqcNikt4h3tZdHX1sDobS2el0xWvRrgVYK88teArc',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'o9g255rQtpDCY8e1lsqToFSPP8vI',
+      id: 'oNL8H6djv1jv0_nkOj9DkGgMi2TQ',
     }
   ],
 
