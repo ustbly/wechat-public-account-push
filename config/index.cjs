@@ -15,6 +15,8 @@ const USER_CONFIG = {
 
   PROVINCE: '山东',
   CITY: '青岛',
+  BIRTHDAY1: 'r1998-09-29',
+  BIRTHDAY2: 'r1997-12-21',
 
   USERS: [
     {
