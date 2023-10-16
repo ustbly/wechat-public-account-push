@@ -46,6 +46,8 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2021-12-01' },
+        { keyword: 'vayne_day', date: '1997-12-21' },
+        { keyword: 'weini_day', date: '1998-09-29' },
         // 结婚纪念日
         //{ keyword: 'marry_day', date: '2022-09-09' },
       ],
@@ -73,6 +75,8 @@ const USER_CONFIG = {
       customizedDateList: [
         // 在一起的日子
         { keyword: 'love_day', date: '2021-12-01' },
+        { keyword: 'vayne_day', date: '1997-12-21' },
+        { keyword: 'weini_day', date: '1998-09-29' },
         // 结婚纪念日
         //{ keyword: 'marry_day', date: '2022-09-09' },
       ],
